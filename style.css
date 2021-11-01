@@ -1,0 +1,43 @@
+body{
+    background-color: #000000;
+}
+
+.timer{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    padding: 15px;   
+}
+
+.iniciar,.pause,.reset{
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    margin-left: 5px;   
+}
+
+.pause:hover,.reset:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(197, 148, 49)
+}
+
+.iniciar:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(74, 174, 133);
+}
+
+#time{
+    font-size: 60px;
+    color: rgb(255, 149, 0); 
+}
+
+.title{
+    font-size: 40px ;
+    color: rgb(255, 149, 0); 
+    text-align: center;
+}
